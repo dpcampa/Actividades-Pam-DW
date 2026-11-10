@@ -1,2 +1,7 @@
-# Actividades-Pam-DW
-Este repositorio esta diseñado para almacenar las actividades de diseño de aplicaciones.
+# Actividades Pamela Campalugo
+## Asignatura: Prog. Diseño de Aplicaciones
+## EBC - LANCE
+Este repositorio contiene los códigos en HTML, CSS y JS para diferentes actividades desarrolladas y diseñadas en la materia de programación.
+
+Todos los derechos de autor esta reservados a Pamela Campalugo, en caso de utilizarlo se debe referenciar a autor y hacer un fork.
+
