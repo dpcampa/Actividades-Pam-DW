@@ -1,12 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<!--Docype es uan sentencia que indica que voy a trabajar con un documento HTML-->
+
+<html lang="es"> <!--Aquí inicia mi página con la etiqueta de html-->
+<head> <!--aquí en el head esta todo lo que no es visible ne la página pero lo hace funcional-->
+<!-- Con los metadatos puedo colocar caracteres especial, dar información al SEO para posicionamiento web-->
+  <meta charset="UTF-8"> <!--Permite caracteres especiale-->
+  <meta name="description" content="Musical POP"> 
+  <meta name="author" content="Pamela Campa">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Redaction+10:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
 <title>Musical Pam</title>
 </head>
 <body>
 
-<h1>Musical Pam</h1>
-<p>Escucha mis 3 canciones de POP</p>
+ <div class="container-musical">
+  <img src="FOTO1.jpg" alt="Imagen de musical app" class="imagen-portada">
 
-</body>
+    <h1>Musical Pam</h1>
+    <p class= "pmusical" ></p>Escucha mis 3 canciones de POP</p>
+
+        <div class="lista-canciones">
+         <!--CANCIÓN 1-->
+            <div class="canciones">
+                <p> ⚠️1. Peligro-Reik</p>
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="PELIGRO.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+
+            <!--CANCIÓN 2-->
+            <div class="canciones">
+                <p> 🐶2. ¿Con quien se queda el perro? - Jesse&Joy</p>
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 2 -->
+                    <source src="PERRO.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+
+            <!--CANCIÓN 3-->
+            <div class="canciones">
+                <p>😱3.BbY WOW- Karol G</p>
+                  <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 3 -->
+                    <source src="BbY WOW.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+
+
+            </div>
+            
+
+
+        </div>
+
+        </body>
 </html>
+    
